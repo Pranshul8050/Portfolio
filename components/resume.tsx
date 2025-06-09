@@ -34,11 +34,18 @@ export default function Resume() {
 
   const experiences = [
     {
-      title: "AIcte Intership on AI Technologies",
+      title: "Aicte Intership on AI Technologies",
       company: "Edunet Foundation",
       period: "Jan 2025 - Feb 2025",
       description:
         "Developed responsive user interfaces using React.js and implemented state management with Redux. Collaborated with the design team to create pixel-perfect UI components.",
+    },
+    {
+      title: "Frontend Development Intern",
+      company: "Ceeras",
+      period: "Jun 2024 - Aug 2024",
+      description:
+        "Converted high-fidelity Figma designs into responsive, pixel-perfect frontend code using HTML, CSS, JavaScript, and React.js. Collaborated with the design team to ensure UI/UX consistency across devices, optimized components for performance, and maintained clean, scalable codebase aligned with modern web standards.",
     },
     {
       title: "Web Development Freelancer",
@@ -46,13 +53,6 @@ export default function Resume() {
       period: "Jan 2024 - Present",
       description:
         "Help in Building custom websites for small businesses and startups. Implemented full-stack solutions using the MERN stack, focusing on performance and user experience.",
-    },
-    {
-      title: "Open Source Contributor",
-      company: "Various Projects",
-      period: "Jun 2022 - Present",
-      description:
-        "Actively contributed to open-source projects, fixing bugs and implementing new features. Collaborated with developers worldwide through GitHub.",
     },
   ]
 
@@ -62,7 +62,7 @@ export default function Resume() {
       organization: "Konark Fest 2025",
       period: "Feb 2025",
       description:
-        "Won first place in a 24-hour hackathon by developing an innovative solution on Education by using  Artificial Intelligence",
+        "Won third place in a 24-hour hackathon by developing an innovative solution on Education by using Artificial Intelligence",
     },
     {
       title: "Web Development Certification",
@@ -155,4 +155,3 @@ export default function Resume() {
     </section>
   )
 }
-

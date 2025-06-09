@@ -39,4 +39,3 @@ Additional notes:
 - To run the project locally: npm run dev
 - To build the project: npm run build
 */
-

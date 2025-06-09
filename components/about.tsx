@@ -56,7 +56,7 @@ export default function About() {
             <motion.div variants={itemVariants} className="relative">
               <div className="relative z-10 rounded-lg overflow-hidden border-4 border-primary/20">
                 <img
-                  src="/placeholder.svg?height=600&width=500"
+                  src="/images/profile-shadow.jpg"
                   alt="Pranshul Kumar Gera"
                   className="w-full h-auto object-cover"
                 />
@@ -69,17 +69,19 @@ export default function About() {
                 Hi, I'm <span className="text-primary">Pranshul Kumar Gera</span>
               </h3>
               <p className="text-muted-foreground">
-                I'm a passionate MERN stack developer and a BTech CSE 3rd-year student with a strong foundation in web
-                development. My journey in tech began with a curiosity about how websites work, which evolved into a
-                deep passion for creating innovative web solutions.
+                I'm a MERN stack developer and a 3rd-year BTech CSE student, driven by a passion for turning ideas into
+                powerful web experiences.
               </p>
               <p className="text-muted-foreground">
-                I specialize in building full-stack applications using MongoDB, Express.js, React, and Node.js. My goal
-                is to create seamless, user-friendly experiences that solve real-world problems.
+                I craft full-stack applications with MongoDB, Express.js, React, and Node.js, blending clean code with
+                real-world impact.
               </p>
               <p className="text-muted-foreground">
-                When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-                or participating in hackathons to challenge myself and expand my skill set.
+                From building sleek UIs to solving complex problems, I thrive on innovation, collaboration, and
+                continuous learning.
+              </p>
+              <p className="text-muted-foreground">
+                Outside the code editor? You'll find me exploring cutting-edge tech or leveling up at hackathons.
               </p>
 
               <div className="grid grid-cols-2 gap-4 pt-4">
@@ -102,7 +104,7 @@ export default function About() {
               </div>
 
               <Button className="mt-6 cursor-hover" asChild>
-                <a href="C:\Users\Pranshul\Documents\resume.ppp.pdf" download>
+                <a href="/resume/pranshul-kumar-gera-resume.txt" download="Pranshul_Kumar_Gera_Resume.txt">
                   <Download className="mr-2 h-4 w-4" />
                   Download Resume
                 </a>
@@ -114,4 +116,3 @@ export default function About() {
     </section>
   )
 }
-

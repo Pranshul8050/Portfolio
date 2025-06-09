@@ -40,6 +40,28 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      title: "Real Time Crypto Tracker",
+      description:
+        "Real Time Crypto Tracker is a real-time cryptocurrency monitoring dashboard built for precision and performance. It delivers live updates on market prices, trends, and capitalizations through a clean and intuitive interface.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["React", "JavaScript", "API Integration", "Real-time Data", "CSS"],
+      liveLink: "https://real-time-crypto-tracker-wheat.vercel.app",
+      githubLink: "https://github.com/Pranshul8050/REAL-TIME-CRYPTO-TRACKER",
+      category: "frontend",
+    },
+    {
+      id: 2,
+      title: "Exameet",
+      description:
+        "Exameet is a smart, streamlined platform designed to simplify mock tests and exam readiness. With intuitive UI and structured sessions, it enhances collaboration and learning efficiency for students.",
+      image: "/placeholder.svg?height=400&width=600",
+      tags: ["React", "Node.js", "MongoDB", "Express", "Education Platform"],
+      liveLink: "https://exameet.vercel.app/",
+      githubLink: "https://github.com/Pranshul8050/Exameet",
+      category: "fullstack",
+    },
+    {
+      id: 3,
       title: "AI Image Generator using Stable Diffusion",
       description:
         "Overview This project is an AI-powered image generation system that uses a Stable Diffusion model to generate images based on user input. The user provides a text prompt, and the model generates a unique image accordingly.",
@@ -50,7 +72,7 @@ export default function Projects() {
       category: "AI",
     },
     {
-      id: 2,
+      id: 4,
       title: "Petpal",
       description: "A website designed for Pet Services such as pet sitting, pet walking, and other pet care services.",
       image: "/placeholder.svg?height=400&width=600",
@@ -60,18 +82,18 @@ export default function Projects() {
       category: "frontend",
     },
     {
-      id: 3,
-      title: "UserAccess Portal (Frontend)",
+      id: 5,
+      title: "PopX",
       description:
         "Designed and developed a responsive and user-friendly Login and Sign Up interface for a web application. The project focuses on clean UI/UX principles to ensure an intuitive experience for users.",
       image: "/placeholder.svg?height=400&width=600",
       tags: ["Html", "Css", "Javascript"],
-      liveLink: "user-access-portal-frontend.vercel.app",
-      githubLink: "https://github.com/Pranshul8050/UserAccess-Portal-Frontend-",
-      category: "Frontend",
+      liveLink: "https://popx-tau.vercel.app",
+      githubLink: "https://github.com/Pranshul8050/Popx",
+      category: "frontend",
     },
     {
-      id: 4,
+      id: 6,
       title: "Portfolio Website",
       description: "A personal portfolio website showcasing projects, skills, and contact information.",
       image: "/placeholder.svg?height=400&width=600",
@@ -216,4 +238,3 @@ export default function Projects() {
     </section>
   )
 }
-

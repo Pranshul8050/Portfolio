@@ -20,4 +20,3 @@ export function ModeToggle() {
     </Button>
   )
 }
-
